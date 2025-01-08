@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.tabs-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(255, 255, 255, 0%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0;
+}
+
+.tab-container {
+    padding-right: .5rem;
+    text-align: right;
+}
+
+.tab-display {
+    background-color: #B1F0F7;
+    width: 40rem;
+    height: 20rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F0CD;
+    width: 5rem;
+}
+
+#tab2 {
+    display: none;
+}
+
+#tab3 {
+    display: none;
+}
+
+button {
+    text-decoration: none;
+    background-color: #81BFDA;
+    border: none;
+    height: 2rem;
+}
+
+#btnTab1 {
+    background-color: #FADA7A;
+}
+
+p:read-write {
+    border: none;
+}
